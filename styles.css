@@ -9,37 +9,41 @@ body {
   line-height: 1.5;
   text-align: center;
   margin: 0;
+  color: white;
 }
 
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
+  font-family: "Rock Salt", cursive;
 }
 
 @media (max-width: 460px) {
   height: {
     font-size: 3.5rem;
     line-height: 1.2;
+    font-family: "Rock Salt", cursive;
   }
 }
 
 h2 {
   font-size: 3.25rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #377ca7;
+  color: red;
 }
 
 a:visited {
-  color: #74638f;
+  color: #e16060;
 }
 
 #main {
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
-  background: #eee;
+  background: #414141;
 }
 
 @media (max-width: 460px) {
@@ -56,12 +60,13 @@ img {
 }
 
 #img-div {
-  background: white;
+  background: #414141;
   padding: 10px;
   margin: 0;
 }
 
 #image {
+  border-radius: 10%;
 }
 
 #img-caption {
@@ -80,6 +85,11 @@ img {
 #headline {
   margin: 50px 0;
   text-align: center;
+  font-family: "Rock Salt", cursive;
+}
+
+#art {
+  color: red;
 }
 
 ul {
@@ -87,6 +97,7 @@ ul {
   margin: 0 auto 50px auto;
   text-align: left;
   line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -98,4 +109,15 @@ blockquote {
   max-width: 545px;
   margin: 0 auto 50px auto;
   text-align: left;
+}
+
+strong {
+  color: red;
+  font-family: "Rock Salt", cursive;
+}
+
+#cite-name {
+  color: red;
+  font-family: "Rock Salt", cursive;
+  font-size: 1.2em;
 }
